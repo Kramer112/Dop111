@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Піццерія Froze&Kramer</title>
+    <link rel="stylesheet" href="Design.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="logo">Froze&Kramer</div>
+        <nav>
+            <ul>
+                <li><a href="#" id="menuPizza">Піцца</a></li>
+                <li><a href="#" id="menuDrinks">Напої</a></li>
+                <li><a href="#" id="menuDesserts">Десерти</a></li>
+                <li><a href="#" id="menuContacts">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="korzina.html">Корзина</a>
+        </div>
+    </header>
+
+    <!-- Фильтр по районам -->
+    <section class="filter-bar">
+        <select id="districtFilter">
+            <option value="all">Все районы</option>
+            <option value="center">Центр</option>
+            <option value="north">Север</option>
+            <option value="south">Юг</option>
+            <option value="east">Восток</option>
+            <option value="west">Запад</option>
+        </select>
+        <button id="filterAll">Все</button>
+        <button id="filterCheese">Сырная</button>
+        <button id="filterMeat">Мясная</button>
+        <button id="filterPineapple">С ананасом</button>
+        <button id="filterChicken">С курицей</button>
+        <button id="filterMushroom">С грибами</button>
+        <button id="filterSpicy">Острая</button>
+    </section>
+
+    <!-- Список пицц -->
+    <section class="product-list">
+        <div class="product-card">
+            <img src="111.jpg" alt="4 Сири">
+            <h3>4 Сира</h3>
+            <p>390 г | 179 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="111.jpg" alt="4 М'яса">
+            <h3>Франческа</h3>
+            <p>390 г | 179 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="111.jpg" alt="Піцца 4 м'яса">
+            <h3>4 М'яса</h3>
+            <p>390 г | 179 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="111.jpg" alt="Кальцоне 'Рок-н-Ролл' с Мортделлой + 5 сыров">
+            <h3>Мексика'</h3>
+            <p>780 г | 299 ₴</p>
+            <button>У кошик</button>
+        </div>
+    </section>
+
+    <h2 class="section-title">Салаты</h2>
+    <div class="product-list"></div>
+    <section class="product-list">
+        <div class="product-card">
+            <img src="000.jpg" alt="Цезарь">
+            <h3>Цезарь</h3>
+            <p>250 г | 129 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="000.jpg" alt="Греческий">
+            <h3>Греческий</h3>
+            <p>300 г | 99 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="000.jpg" alt="Оливье">
+            <h3>Оливье</h3>
+            <p>200 г | 89 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="000.jpg" alt="Витаминный">
+            <h3>Витаминный</h3>
+            <p>150 г | 79 ₴</p>
+            <button>У кошик</button>
+        </div>
+    
+    </section>
+
+    <h2 class="section-title1">Напитки</h2>
+    <div class="product-list"></div>
+    <section class="product-list">
+        <div class="product-card">
+            <img src="Cola.jpg" alt="Кока-Кола">
+            <h3>Кока-Кола</h3>
+            <p>500 мл | 29 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="fanta.jpg" alt="Фанта">
+            <h3>Фанта</h3>
+            <p>500 мл | 29 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="water.jpg" alt="Минеральная вода">
+            <h3>Минеральная вода</h3>
+            <p>500 мл | 19 ₴</p>
+            <button>У кошик</button>
+        </div>
+        <div class="product-card">
+            <img src="orange.jpg" alt="Сок апельсиновый">
+            <h3>Сок апельсиновый</h3>
+            <p>250 мл | 25 ₴</p>
+            <button>У кошик</button>
+        </div>
+    </div>
+        
+    </section>
+
+
+
+    <!-- Популярные пиццы -->
+    <section class="popular-districts">
+        <h2>Популярні піци міста</h2>
+        <div id="districtPopularity">
+            <div class="district-item">
+                <img src="111.jpg" alt="Центр района">
+                <p>4 Сира</p>
+                <p>Кількість замовлень: 500</p>
+            </div>
+            <div class="district-item">
+                <img src="111.jpg" alt="Север района">
+                <p>4 М'яса</p>
+                <p>Кількість замовлень: 150</p>
+            </div>
+            <!-- Другие популярные районы -->
+        </div>
+    </section>
+
+
+    <!-- Популярные районы -->
+    <section class="popular-districts">
+        <h2>Популярные районы города</h2>
+        <div id="districtPopularity">
+            <div class="district-item">
+                <p>Центр</p>
+                <p>Количество заказов: 500</p>
+            </div>
+            <div class="district-item">
+                <p>Север</p>
+                <p>Количество заказов: 300</p>
+            </div>
+            <!-- Другие популярные районы -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Froze & Kramer Pizza. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+        
+
+
+</body>
+
+</html>
